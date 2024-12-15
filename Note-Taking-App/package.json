@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "argv-formatter": "^1.0.0",
+    "chalk": "^2.4.1",
+    "node": "^23.4.0",
+    "yargs": "^17.7.2"
+  }
+}

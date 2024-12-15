@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+   <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body> 
+    <div  class="main">
+        {{>navbar}}
+        {{>header}}
+        
+        <p>need some help? contact us!</p>
+        <div class="contact-wrapper">
+            <form class="help-form">
+                <form class="help-form">
+        <label class="contact-input" for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label class="contact-input" for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label class="contact-input" for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+        <button class="contact-btn" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>
