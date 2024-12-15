@@ -1,0 +1,13 @@
+{
+  "name": "node-gi-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "start": "node Hosted-Weather-App/web-server/src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
