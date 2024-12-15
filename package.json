@@ -8,5 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "languagedetect": "^2.0.0",
+    "postman-request": "^2.88.1-postman.40"
+  }
 }
